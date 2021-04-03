@@ -1,11 +1,7 @@
-# CharTree_Temp
-
-
-### menu ###
-
-1. Create (Serialisation) <br />
-2. Load (Deserialisation) <br />
- (press c to exit)    <br />
+# Menu
+1. Create (Serialisation)<br />
+2. Load (Deserialisation)<br />
+ (press c to exit)<br />
  
  # Steps
  > Run the code and press 1 to generate binary file<br /><br /><br />
