@@ -16,7 +16,8 @@ ii) Example: ./executable load serialized-output.bin
 
 #include <bits/stdc++.h>
 using namespace std;
- 
+
+int max_words = 1000;
 struct Node {
     string data;
     struct Node* left;
@@ -99,7 +100,7 @@ void load(){
 	fstream binfile;
 	binfile.open("data.bin", ios::in);
 	int n,maxx=-1;
-	string arr[1000];
+	string arr[max_words];
 	string temp;
 	if (!binfile) {
 		cout << "File not found! load file first";
